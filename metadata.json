@@ -1,0 +1,6 @@
+{
+  "name": "Jamboo",
+  "description": "Offline-first JAMB CBT preparation platform with mock examinations, past questions, study notes, syllabus, calculator, and performance analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

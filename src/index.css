@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;500;700;800&family=Outfit:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+/* High contrast mode enhancements */
+.high-contrast {
+  --color-slate-900: #000000;
+  --color-slate-950: #000000;
+  --color-slate-50: #ffffff;
+  --color-white: #ffffff;
+  font-weight: 500;
+}
+
+.high-contrast button, 
+.high-contrast select, 
+.high-contrast input {
+  border-width: 2px !important;
+  border-color: currentColor !important;
+}
+
